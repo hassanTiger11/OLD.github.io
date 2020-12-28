@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/master.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="navigationBar">
+      <div ><a href="index.html"> Home</a></div>
+      <div ><a href="projects.html">Projects</a></div>
+      <div ><a href="projects.html">views</a></div>
+    </div>
+    <div class="content">
+      <div id="tucsonBackground">
+      </div>
+
+      <div id="helloWorld">
+        <h1>Hello World!</h1>
+      </div>
+
+      <div id="personalStatement">
+        <div id = "projectBox">
+          <img src="./imgs/socializer.jpg" alt="calendar" width=500 id="projectPic">
+          <p> This is a social network to help people share their events with friends!</p>
+          <p>In the duration of two weeks, I written this social network to help people share events with each other. The website gives way for people to make small circle of friends where they can see each others' plans.
+            It was an acheivement to write the documentation, specifications, designs, test plans, software design, testing cases for this website. I have used the MongoDB, ExpressJS, HTML & CSS to make it.</p>
+            <a href = "https://thecrib.azurewebsites.net/">Check it out!</a>
+        </div>
+
+        <div id = "projectBox">
+          <img src="./imgs/calendar.jpg" alt="calendar" width=500 id="projectPic">
+          <p> This is a Calendar application for desktops made by JavaFX.</p>
+          <p>During two weeks, I have worked on establishing the storage unit of the Calendar, enhanced the user interface with the dark mode and parts of the controller.
+            Regarding the storage unit, I used a treeMap to map an event to its date of happening.
+            Add to that, I implemented the Serializable interface to ensure storing the information of its object and keep the Calendar up to date in the next session.
+            For the interface, I have added the "add event" pop up and written a nice styling sheet to make the dark mode.</p>
+          <p>This was my second experience with agile dev and we have used the MVVC architecture to build it. Although we have worked on it in the days of the pandemic, we were able to use zoom and discord for our meetings,<a href="https://github.com/hassanTiger11"> github</a> for composing the code, and trillo to assign tasks for every member of the group.
+          This experience exposed me to a very essential skill for 21st century programers; the ability to work from distance.</p>
+        </div>
+
+        <div id = "projectBox">
+          <img src="./imgs/masterMind.jpg" alt="MasterMind" width=500 id="projectPic">
+          <p>This is an adaptation of the famous game Master Mind</p>
+          <p>In this game the computer (AI) make up a four letter word (from this set{r, o, y, g, b, p}).
+          The player has to attempt to ballpark the AI's guess.
+          The AI supplies the player with the number of letters in correct places and letters in wrong places to help the player.</p>
+          <p>This game is has only one path of interaction which make it viable for the Model-View-Controller architecture.
+            The model generates the AI's guess and process the user guesses for comparison. The contoller contains the logic of the game and the view is text only view.</p>
+        </div>
+
+
+      </div>
+
+    </div>
+    <div class="topBar">
+      <h1 id= "title">Hassan Alnamer</h1>
+    </div>
+  </body>
+</html>
